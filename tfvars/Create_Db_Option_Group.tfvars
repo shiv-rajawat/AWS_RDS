@@ -1,0 +1,7 @@
+db_option_group_name = "shiv-pr-option-group"
+engine_name = "sqlserver-ex"
+major_engine_version = "14.00"
+aws_region = "ap-southeast-2"
+bucket_name = "shiv-pr-bucket"
+database_option_group_role_name = "shiv_ogr"
+database_option_group_s3_policy_name = "shiv_ogr_policy"

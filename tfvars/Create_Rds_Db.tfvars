@@ -1,0 +1,11 @@
+aws_region = "ap-southeast-2"
+allocated_storage = 20
+storage_type = "gp2"
+engine = "sqlserver-ex"
+engine_version = "14.00"
+instance_class = "db.t2.micro"
+username = "foo"
+password = "foobarbaz"
+db_option_group_name = "shiv-pr-option-group"
+license_model = "included"
+publicly_accessible = true
