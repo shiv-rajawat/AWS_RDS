@@ -9,3 +9,4 @@ password = "foobarbaz"
 db_option_group_name = "shiv-pr-option-group"
 license_model = "included"
 publicly_accessible = true
+vpc_security_group_ids = []

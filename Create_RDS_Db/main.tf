@@ -9,4 +9,5 @@ resource "aws_db_instance" "default" {
   option_group_name    = "${var.db_option_group_name}"
   license_model        = "${var.license_model}"
   publicly_accessible  = "${var.publicly_accessible}"
+  vpc_security_group_ids = "${var.vpc_security_group_ids}"
 }

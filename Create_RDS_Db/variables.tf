@@ -51,3 +51,7 @@ variable "license_model" {
 variable "publicly_accessible" {
   type = "string"
 }
+
+variable "vpc_security_group_ids"{
+  type = "list"
+}
